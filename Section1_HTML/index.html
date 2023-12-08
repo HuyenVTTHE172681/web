@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tags.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <style>
+        body{
+            color: black;
+            background: white;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="table_class">
+        <table>
+            <!-- Tên bảng -->
+            <caption>Big Companies</caption>
+
+            <!-- Style bảng -->
+            <colgroup>
+                <col style="background: yellow;">
+                <col style="background: green;" span="1">
+                <col style="background: peachpuff">
+            </colgroup>
+
+            <!-- Tên mỗi cột -->
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Country</th>
+                    <th>Headquarters</th>
+                </tr>
+            </thead>
+
+            <!-- Body của bảng -->
+            <tbody>
+                <tr>
+                    <td>Apple</td>
+                    <td>USA</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td colspan="2">USA</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <div>
+        <p>Just a simple <br/> <a class="link_hover" href="link">link</a> in a graph</p>
+
+        <form id = "form_id">
+            <h2>Fill on the form</h2>
+
+            Name: <input name = "name" type="text"/> <br>
+            Age: <input max ="99" min = "1" name ="age" step = "1" type = "number" value = "18"/> <br/>
+            Checkbox: <input type = "checkbox" name = "terms" value="HV"> Accept!! <br/>
+            Radio: <input type="radio" name = "gender" value = "male" checked> Male
+                   <input type="radio" name = "gender" value = "female"> Female 
+            <br>
+
+            <select>
+                <option selected="selected" value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="undefined">Undefined</option>
+            </select>
+
+            <br>
+            Email: <input type = "email" name = "yourmail"> <br/>
+            Password: <input type = "password" name = "pass"> <br/>
+            Color: <input type = "color" name = "yourcolor"> <br/>
+            Time: <input type ="date" name = "date"> <br/>
+            Week: <input type="week" name="yourweek"> <br/>
+            Month: <input type = "month" name = "yourmonth"> <br/>
+            Range: <input type = "range" name ="yourrange"> <br/>
+            Search: <input type ="search" name = "mysearch"/> <br/>
+            File: <input type = "file" name="file"/> <br/>
+            Textarea: <textarea cols="20" name="comments" rows="5">Comment: </textarea> <br>
+            <input type="submit" value="Submit Now!"/> <br>
+            <input type="reset"/>
+        </form>
+
+        <img src = "#" alt="ảnh HV" height="120" width="130">
+    </div>
+
+    <div>
+        <h2>Ordered list</h2>
+        <!-- ol: order list, li: list item, ul: unorder list -->
+        <ol start="10" type="a">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+
+        <h2>Unorder list</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+
+        <p>A short paragraph</p>
+        <p style="text-align: center">The <em>align</em> attribute</p>
+    </div>
+    
+</body>
+</html>

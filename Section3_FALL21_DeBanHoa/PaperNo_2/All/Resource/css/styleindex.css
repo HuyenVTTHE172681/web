@@ -1,0 +1,130 @@
+/* Content HEADER */
+.content_header {
+    display: flex;
+    justify-content: space-around;
+}
+.content_header-textleft, .content_header-textright{
+    color: green;
+    font-size: 34px;
+    font-weight: bold;
+    width: 310px;
+    margin-top: 16px;
+}
+.content_header-textright p{
+    text-align: right;
+}
+.content_header-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid green;
+    overflow: hidden;
+}
+.content_header-logo img {
+    width: 100%;
+}
+
+/* MENU */
+.menu {
+    background: green;
+}
+.navbar__left{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar__left__link {
+    margin: 0 30px;
+}
+.navbar__left__link a {
+    text-decoration: none;
+    color: white;
+}
+
+/* BANNER */
+.banner img{
+    width: 100%;
+}
+
+/* Intro flower */
+.intro_flower {
+    display: flex;
+    margin-top: 16px;
+}
+.intro_flower_image img {
+    width: 423px;
+    height: 447px;
+}
+.intro_flower_content {
+    margin-left: 29px;
+    margin-top: -12px;
+}
+.intro_flower_content h2 {
+    color: rgb(250, 65, 96);
+}
+.intro_flower_content p:nth-child(5) {
+    color: rgb(250, 65, 96);
+}
+.intro_flower_content li {
+    color: rgb(0, 81, 255);
+    font-size: italic;;
+}
+
+/* Seller */
+.seller {
+    margin-bottom: 40px;
+}
+.seller_item {
+    display: flex;
+    justify-content:space-around;
+    margin: 0 24px;
+}
+.seller h1 {
+    text-align: center;
+    color: green;
+}
+
+/* Seller item */
+.seller_item_list {
+    text-align:center;
+    border: 4px solid grey;
+    max-width: 20%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.seller_item_list_detail {
+    margin: 10px; 
+}
+.seller_item_list_detail img {
+    width: 85%;
+}
+/* Tên item */
+.seller_item_list_detail h3 {
+    color: green;
+}
+/* Giá item*/
+.seller_item_list_detail p {
+    color: red;
+}
+/* Buy item */
+.seller_item_list_detail div {
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: green;
+    color:white;
+    padding: 10px;
+}
+
+
+

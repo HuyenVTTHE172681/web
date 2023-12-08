@@ -1,0 +1,114 @@
+/* Header */
+.title-header {
+    display: flex;
+    justify-content: space-around;
+}
+.title_header-logo img {
+    width: 58%;
+}
+.title_header-text{
+    margin-top: 37px;
+    color: orange;
+    font-style: italic;
+}
+.title_header-search {
+    margin-top: 27px;
+}
+.submit{
+    background-color: black;
+    color: white;
+}
+.banner img {
+    width: 100%;
+}
+
+/* List */
+.order_items {
+    display: flex;
+}
+
+/*List of items*/
+.accessories h1 {
+    text-align: center;
+    color: rgb(154, 228, 228);
+    font-size: 28px;
+    margin: 30px 0 30px 0;
+}
+.accessories {
+    width: calc((100%/12)*10);
+    margin-bottom: 50px;
+}
+.accessories-list-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 40px;
+}
+.accessories-list-item_order {
+    max-width: calc((100%/12)*4);
+    margin-bottom: 50px;
+}
+.accessories-list-item_order_info {
+    margin: auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0;
+}
+.accessories-list-item_order_info img {
+    width: 100%;
+}
+.accessories-list-item_order_info p {
+    color: red;
+}
+.accessories-list-item_order_info del {
+    color: gray;
+}
+.accessories-list-item_order_info div {
+    color: white;
+    background-color: red;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+}
+/*Menu*/
+.menu {
+    background: gray;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.navbar__left {
+    color: white;
+    list-style: none;
+    margin-left: -28px;
+}
+.navbar__left__link a {
+    color: white;
+    text-decoration: none;
+}
+.navbar__left__link {
+    padding: 15px;
+}
+.navbar__left__link:hover {
+    background: green;
+}
+#first-child:hover {
+    background-color: rgb(0, 140, 255);
+}
+
+.footer{
+    text-align:center;
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    background: blue;
+    color: white;
+    padding: 21px;
+}

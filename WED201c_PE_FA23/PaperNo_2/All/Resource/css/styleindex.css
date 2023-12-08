@@ -1,0 +1,111 @@
+/* HEADER */
+.content_header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+.content-header-title {
+    padding-left: 69px;
+    margin-top: 45px;
+    color: red;
+    font-style: italic ;
+}
+.logo {
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.content_header_search {
+    margin-top: 5%;
+    padding-right: 73px;
+}
+.content_header_search input {
+    width: 329px;
+}
+
+/* MENU */
+.menu {
+    padding-left: 340px;
+}
+
+/* Infomation airbalde 160cc */
+.info_airbalde_title {
+    color: rgb(133, 230, 230);
+    margin: 40px 0 10px 0;
+}
+.info_airbalde_detail {
+    display: flex;
+}
+.info_airbalde_banner {
+    width: 100%;
+}
+.info_airbalde_image {
+    display: flex;
+    justify-content: space-around;
+}
+.info_airbalde_image1 img {
+    width: 189px;
+    height: 176px;
+    padding: 5px;
+}
+
+/* Content BEST SELLER */
+.content_best_seller_title h1 {
+    color: rgb(133, 230, 230);
+    margin: 40px 0 30px 0;
+}
+.content_best_seller_images img {
+    width: 89%;
+    height: 295px;
+}
+.content_best_seller_text {
+    margin-left: 60px;
+}
+.content_best_seller_text h3 {
+    color: orange;
+}
+
+/* Store information and Ordering MotorBike */
+.order_motobike {
+    margin: 30px 5px 100px 5px;
+}
+.order_motobike_text {
+    color: rgb(133, 230, 230);
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.order_motobike_left img {
+    height: 434px;
+    width: 631px;
+}
+.order_motobike_right {
+    width: 505px;
+    /* height: 534px; */
+}
+
+/* Footer */
+.footer {
+    background-color:rgb(16, 155, 155);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    color: #fff;
+    width: 104%;
+    color: #fff;
+} 
+
+@media only screen and (max-width: 500px) {
+    .content-header {
+        display: block;
+        margin-left: 66px;
+    }
+
+    .info_airbalde_detail {
+        display: block;
+    }
+    .content-header-search{
+        margin:10px 0;
+    }
+  }
+
+

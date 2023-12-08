@@ -1,0 +1,34 @@
+/* *{
+    background: peachpuff;
+    font-size: 50px;
+    color: black;
+} */
+
+/* div {
+    background-color: bisque;
+} */
+
+/* CẢ DIV VÀ P đều dùng chung*/
+/* div, p {
+    color: blue;
+    background-color: black;
+} */
+
+/* CHỈ CÓ P trong DIV mới có style*/
+/* div p {
+    color: burlywood;
+} */
+
+/*Chỉ có div có tên CLASS là table_name mới có thuộc tính này*/
+.table_class{
+    background-color: blanchedalmond;
+}
+
+/*Chỉ có div có tên ID là form_id mới có thuộc tính này*/
+#form_id{
+    background-color: aquamarine;
+}
+
+.link_hover:h{
+    background-color: brown;
+}

@@ -1,0 +1,155 @@
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+/* Header text */
+.mr-115{
+    margin-right: 50px;
+    padding-right: 0;
+}
+.header_text{
+    margin-right: 50px;
+    margin-top: 25px;
+    font-family: 'Ephesis';
+    font-size: 32px;
+    color: green;
+}
+/* Header img */
+.header_img img {
+    width: 150px;
+    margin-right: 10px;
+}
+.header_img {
+    margin-top: 15px;
+    border-radius: 50%;
+    border-color: #ccc;
+    border-style: solid;
+}
+
+/* MENU */
+.content_menu{
+    background-color: green;
+    margin-top: 10px;
+    height: 40px;
+}
+.content_menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0 0;
+    margin: 0 0;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.content_menu li {
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.content_menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* BANNER */
+.banner{
+    display: flex;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner1{
+    width: 50%;
+}
+.banner2{
+    width: 50%;
+}
+
+/* PRODUCT & CONTENT */
+.content_body{
+    display: flex;
+    margin-top: 15px;
+}
+.content_img img{
+    width: 450px;
+    height: auto;
+}
+.content_img{
+    margin-right: 30px;
+}
+.content_detail h2{
+    margin-top: 0;
+    color:rgb(185, 75, 112);
+}
+.content_detail ul{
+    list-style: circle;
+}
+.content_detail ul li {
+    color: rgb(101, 234, 234);
+    font-style: italic;
+}
+
+/* ORDER */
+.order{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 250px;
+}
+.order_menu1_header{
+    background-color: green;
+    color: aliceblue;
+    padding-top: 0.5px 50px;
+    width: 300px;
+}
+.order_menu1_header h3{
+    padding-left: 55px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.order_menu1_header p{
+    margin-top: 0;
+    padding-bottom: 12px;
+    padding-left: 43px;
+    margin-bottom: 0;
+}
+.order_menu_body{
+    background-color: #ccc;
+}
+.order_menu_body ul{
+    list-style: none;
+    margin-top: 0;
+    padding-left: 10px;
+}
+.order_menu_body ul li{
+    padding: 10px 0;
+}
+.order_menu_body ul li span{
+    margin-left: 120px;
+}
+.order_menu2 h3{
+    padding-left: 45px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.order_menu2 p{
+    margin-top: 0;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    margin-bottom: 0;
+}
+.btn-order{
+    background-color: rgb(237, 174, 57);
+    border: solid 1px;
+    border-radius: 21px;
+    width: 125px;
+    height: 38px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 30%;
+}
+.footer {
+    background-color: green;
+    color:#fff;
+    text-align: center;
+    padding:15px 0;
+    margin-top: 10px;
+}
