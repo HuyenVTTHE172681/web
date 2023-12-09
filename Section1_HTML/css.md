@@ -231,10 +231,10 @@
         - Hiển thị thanh cuộn nếu màn hình nhỏ thì thêm style="overflow-x:auto; vào <div></div> chứa table
 
 19. CSS display
-    - ***Block*** *<div>, <h1> - <h6></h6>, <p></p>, <form>, <header>, <footer>, <section>*
+    - ***Block*** 
           - Luôn được xuống dòng
           - Chiếm toàn bộ width nếu width không được set
-    - ***Inline*** *<span>, <a>, <img>*
+    - ***Inline*** 
           - Nằm trên cùng một dòng. Nếu các items vượt quá độ dài của dòng thì item sẽ xuống dòng mới
           - Không thể set width và height
           - Có thể điều chỉnh margin và padding left and right (top và bottom thì không thể).
