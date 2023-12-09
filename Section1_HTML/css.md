@@ -11,10 +11,10 @@
             color: maroon;
             margin-left: 40px;
         }
-</style>
+    </style>
 
 2. CSS external style
-    - HTML page must include a reference to external CSS inside <link> element, in head section
+    - HTML page must include a reference to external CSS inside <link> element, in the head section
     <link rel="stylesheet" href="./nameCSS.css">
 
 3. CSS inline style
@@ -39,52 +39,52 @@
 
 7. CSS background
     - background-color
-        +, background-color: namecolor;
-        +, opacity (độ mờ) / transparency (độ trong suốt) 0.0 - 1.0
+        - background-color: namecolor;
+        - opacity (độ mờ) / transparency (độ trong suốt) 0.0 - 1.0
     - background-image
     - background-repeat
-        +, background-repeat: repeat-x; (lặp lại theo chiều ngang)
-        +, background-repeat: repeat-y; (lặp lại theo chiều dọc)
-        +,background-repeat: no-repeat;
+        - background-repeat: repeat-x; (lặp lại theo chiều ngang)
+        - background-repeat: repeat-y; (lặp lại theo chiều dọc)
+        - background-repeat: no-repeat;
     - background-attachment: chỉ định hình nền sẽ cuộn hay không
-        +, background-attachment: fixed;
-        +, background-attachment: scroll;
+        - background-attachment: fixed;
+        - background-attachment: scroll;
     - background-position xác định vị trí nền
-        +, background-position: right top;
+        - background-position: right top;
     - backgound :
-        +, background-color
-        +, background-image
-        +, background-repeat
-        +, background-attachment
-        +, background-position
+        - background-color
+        - background-image
+        - background-repeat
+        - background-attachment
+        - background-position
 
 8. CSS Border
     - CSS Border Style: border-style
     - CSS Border Width: 
-        +, border-width: num;
-        +, border-width: top right bottom left;
+        + border-width: num;
+        +  border-width: top right bottom left;
     - CSS border color:
-        +, border-color: colorname;
-        +, border-color: top right bottom left;
+        + border-color: colorname;
+        +  border-color: top right bottom left;
     - CSS border side:
-        +, border-top-style
-        +, border-right-style
-        +, border-bottom-style
-        +, border-left-style
+        + border-top-style
+        + border-right-style
+        + border-bottom-style
+        + border-left-style
     - border
-        +, border: border-width border-style border-color
-        +, border-left: 
-        +, border-bottom:
+        + border: border-width border-style border-color
+        + border-left:
+        + border-bottom:
     - Border rounded
-        +, border-radius
+        + border-radius
 
 9. CSS margin
     - Lề được sử dụng để tạo không gian xung quanh các phần tử, bên ngoài bất kì đường viền nào
     - Margin: 
-        +, margin-top
-        +, margin-right
-        +, margin-bottom
-        +, margin-left
+        + margin-top
+        + margin-right
+        + margin-bottom
+        + argin-left
     
 10. CSS padding
     - Tạo khoảng trống xung quanh nội dung của phần tử, bên trong bất kì đường viền nào
@@ -144,10 +144,10 @@
 
 16. CSS links
     - 4 trạng thái liên kết:
-        +, a:link - một liên kết bình thường, chưa được truy cập
-        +, a: visited: một liên kết người dùng truy cập
-        +, a:hover: một liên kết người dùng di chuột qua
-        +, a: active: một liên kết ngay khi nó được nhấp nào\
+        + a:link - một liên kết bình thường, chưa được truy cập
+        + a: visited: một liên kết người dùng truy cập
+        + a:hover: một liên kết người dùng di chuột qua
+        + a: active: một liên kết ngay khi nó được nhấp nào
     EX:/* unvisited link */
             a:link {
                 color: red;
@@ -199,63 +199,81 @@
 18. CSS Table
     - Chú thích bảng: caption-side: top || bottom;
     - Đường viền bảng: border
-        +, border: border-width border-style border-color;
+        - border: border-width border-style border-color;
         /*----border-style: solid || dotted || dashed || inset || outset || ridge || groove || double ||none || hidden----*/
-        +, border-spacing: width height;
+        - border-spacing: width height;
 
     - Kích thước chiều rộng đầy đủ và chiều cao
-        +, height: num;
-        +, width: 100%
+        - height: num;
+          width: 100%
 
     - Thu gọn viền bảng: border-collapse
-        +, border-collapse: collapse || separate;
+        - border-collapse: collapse || separate;
 
     - Căn chỉnh bảng
-        +, Căn chỉnh theo chiều ngang
-            +, text-align: center || left || right;
-        +, Căn dọc
-            +, vertical-align: middle || top || bottom;
+        - Căn chỉnh theo chiều ngang
+              + text-align: center || left || right;
+        - Căn dọc
+              + vertical-align: middle || top || bottom;
 
     - Kiểu bảng:
-        + Table padding
-            +, padding cho <td></td> và <th></th>
-        + Horizontal Dividers - giải phân cách ngang
-            +, border-bottom: width style color;
-        + Hoverable Table :hover đánh dấu table rows khi di chuột tới
+        - Table padding
+            + padding cho <td></td> và <th></th>
+        - Horizontal Dividers - giải phân cách ngang
+            + border-bottom: width style color;
+        - Hoverable Table :hover đánh dấu table rows khi di chuột tới
             EX: tr:hover {background-color: red;}
-        + Striped Tables nth-child()
+        - Striped Tables nth-child()
             EX: tr:nth-child(even) {background-color: red;}
-        + Table color
+        - Table color
+          
     - Table responsive
-        +, Hiển thị thanh cuộn nếu màn hình nhỏ thì thêm style="overflow-x:auto; vào <div></div> chứa table
+        - Hiển thị thanh cuộn nếu màn hình nhỏ thì thêm style="overflow-x:auto; vào <div></div> chứa table
 
 19. CSS display
-    - Block: <div>, <h1> - <h6></h6>, <p></p>, <form>, <header>, <footer>, <section> - Bắt đầu trên 1 dòng mới và chiếm toàn bộ chiều rộng có sẵn
-    - Inline: <span>, <a>, <img> - không bắt đầu trên một dòng mới và chỉ chiếm nhiều chiều rộng nếu cần thiết
-    - display: none; || visibility: hidden;
+    - ***Block*** *<div>, <h1> - <h6></h6>, <p></p>, <form>, <header>, <footer>, <section>*
+          - Luôn được xuống dòng
+          - Chiếm toàn bộ width nếu width không được set
+    - ***Inline*** *<span>, <a>, <img>*
+          - Nằm trên cùng một dòng. Nếu các items vượt quá độ dài của dòng thì item sẽ xuống dòng mới
+          - Không thể set width và height
+          - Có thể điều chỉnh margin và padding left and right (top và bottom thì không thể).
+    - ***Inline-block***
+          - Được sắp xếp giống inline nằm trên cùng một dòng
+          - Nhưng có thể set width, height, margin, padding đủ 4 hướng
+    - ***None*** || visibility: hidden;
 
 20. CSS Layout - The position property
+    - Có 5 giá trị chính của `position`
     - position: 
-        + static: di động
-        + relative
-        + fixed
-        + absolute
-        + sticky: định vị dựa trên vị trí cuộn
+        - static (default)
+            + Kiểu mặc định, các element sẽ được sắp xếp vị trí một cách như bình thường trên trang web
+        - relative
+            + Vị trí mới của một element tương quan/ liên hệ tới vị trí mặc định của nó.
+            + Không ảnh hưởng tới vị trí của các element khác.
+        - fixed
+            + Vị trí của chúng CHỈ tương quan với thẻ <html>
+            + Không bị ảnh hưởng bới scroll
+        - absolute
+            + Sẽ dịch chuyển vị trí của nó tương ứng với thẻ cha của nó.
+            + Vị trí mặc định điểm bắt đầu (top-left) của element cha
+        - sticky: định vị dựa trên vị trí cuộn
 
-21. CSS Z-index
+22. CSS Z-index
+    - Element càng ở bên trên thì `z-index` của nó càng cao
     - Chỉ định ngăn xếp của một phần tử (+ or -)
 
-22. CSS Overflow
+24. CSS Overflow
     - Cắt nội dung hay thêm thanh cuộn khi nội dung của một phần tử quá lớn để vừa với khu vực được chỉ định
     - overflow: visible || hidden || scroll || auto;
     - overflow-wrap: normal || anywhere || break-word; (ngắt dòng nếu tràn viền)
     - ovverflow-x: visible || hidden || scroll || auto;
     - overflow-y
 
-23. CSS Layout - float and clear
+25. CSS Layout - float and clear
     - float: left || right || none || inherit;
 
-24. CSS combinator
+26. CSS combinator
     - Giải thích mỗi quan hệ giữa các bộ chọn
     - Có 4 tổ hợp khác nhau trong CSS:
         + Bộ con cháu (space)
@@ -263,18 +281,18 @@
         + Bộ chọn anh chị em liền kề (+)
         + Bộ chọn anh chị em chung (~)
 
-25. CSS Pseudo-class (link: https://www.w3schools.com/css/css_pseudo_classes.asp)
+27. CSS Pseudo-class (link: https://www.w3schools.com/css/css_pseudo_classes.asp)
     - :link, :visited, :hover, :active
     - :first-child, :last-child, :last-of-type, :ntd-child(n), ....
 
-26. CSS Navigation Bar
+28. CSS Navigation Bar
     - Thanh điều hướng = danh sách liên kết
     - Nav dọc
     - Nav ngang
 
-27. CSS Dropdowns
+29. CSS Dropdowns
 
-28. CSS Attr Selector (link: https://www.w3schools.com/css/css_attribute_selectors.asp)
+30. CSS Attr Selector (link: https://www.w3schools.com/css/css_attribute_selectors.asp)
     - CSS [attribute] selector. EX: a[targer]
     - CSS [attribute = 'value']. EX: a[target = "_blank"]
 
@@ -377,49 +395,47 @@
     - Đây là một flex container 
     - Linh hoạt bằng cách đặt display: flex;
     - Thuộc flex tính là thuộc tính viết tắt của các thuộc tính 
-        +, flex-grow: kích thước của một mục linh hoạt so với các mục linh hoạt còn lại 
-        +, flex-shrink: mức thu nhỏ của một mục linh hoạt so với các mục linh hoạt còn lại
-        +, flex-basis: chỉ định độ dài ban đầu của một mục linh hoạt
+        + flex-grow: kích thước của một mục linh hoạt so với các mục linh hoạt còn lại
+        + flex-shrink: mức thu nhỏ của một mục linh hoạt so với các mục linh hoạt còn lại
+        + flex-basis: chỉ định độ dài ban đầu của một mục linh hoạt
     
     - Vùng chứa CSS Flex:
-        +, flex-direction: xác định hướng mà vùng chứa muốn sắp xếp
-            +, flex-direction: column; (xếp chồng các mục linh hoạt theo chiều dọc từ trên xuống)
-            +, flex-direction: column-reverse; (xếp chồng theo chiều dọc từ dưới lên)
-            +, flex-direction: row; (ngang, từ trái sang phải)
-            +, flex-direction: row-reverse; (ngang, phải sang trái)
+        + flex-direction: xác định hướng mà vùng chứa muốn sắp xếp
+            + flex-direction: column; (xếp chồng các mục linh hoạt theo chiều dọc từ trên xuống)
+            + flex-direction: column-reverse; (xếp chồng theo chiều dọc từ dưới lên)
+            + flex-direction: row; (ngang, từ trái sang phải)
+            + flex-direction: row-reverse; (ngang, phải sang trái)
 
-        +, flex-wrap: tính chỉ định các mục linh hoạt có bọc hay không
-            +, flex-wrap: wrap;
-            +, flex-wrap: nowrap;
-            +, flex-wrap: wrap-reverse;
+        + flex-wrap: tính chỉ định các mục linh hoạt có bọc hay khôngflex-wrap: wrap;
+            + flex-wrap: nowrap;
+            + flex-wrap: wrap-reverse;
 
-        +, flex-flow: flex-direction + flex-wrap;
+        + flex-flow: flex-direction + flex-wrap;
             Ex: .flex-container {
                     display: flex;
                     flex-flow: row wrap;
                 }
 
-        +, justify-content: căn chỉnh các mục linh hoạt
-            +, justify-content: center;
-            +, justify-content: flex-start;
-            +, justify-content: flex-end;
-            +, justify-content: space-around;
-            +, justify-content: space-between;
+        + justify-content: căn chỉnh các mục linh hoạtjustify-content: center;
+            + justify-content: flex-start;
+            + justify-content: flex-end;
+            + justify-content: space-around;
+            + justify-content: space-between;
 
-        +, align-items: căn chỉnh các mục linh hoạt
-            +, align-items: center;
-            +, align-items: flex-start;
-            +, align-items: flex-end;
-            +, align-items: stretch;
-            +, align-items: baseline;
+        + align-items: căn chỉnh các mục linh hoạt
+            + align-items: center;
+            + align-items: flex-start;
+            + align-items: flex-end;
+            + align-items: stretch;
+            + align-items: baseline;
 
-        +, align-content: căn chỉnh các đường flex
-            +, align-content: space-between;
-            +, align-content: space-around;
-            +, align-content: stretch;
-            +, align-content: center;
-            +, align-content: flex-start;
-            +, align-content: flex-end;
+        + align-content: căn chỉnh các đường flex
+            + align-content: space-between;
+            + align-content: space-around;
+            + align-content: stretch;
+            + align-content: center;
+            + align-content: flex-start;
+            + align-content: flex-end;
 
 ---------------------CSS Responsive---------------------
 1. RWD Intro
@@ -485,8 +501,8 @@
     - Bố cục gồm: 1 cha với 1 hoặc nhiều phần tử con
 
     - Display property:
-        +, display: grid (cân đối)
-        +, display: inline-grid (hẹp)
+        + display: grid (cân đối)
+        + display: inline-grid (hẹp)
 
     - CSS Gird:
         +, Grid gaps - gaps: khoảng cách giữa mỗi cột/hàng (column-gap, row-gap, gap)
