@@ -1,12 +1,12 @@
 # HTML Tutorial
 
 ## 1. Intro
-    **HTML** 
+   > HTML
         - HTML *Hyper Text Markup Language*
         - HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang Web
         - Mô tả cấu trúc của một trang Web
 
-    > HTML element
+   > HTML element
         - Phần tử HTML là mọi thứ bắt đầu đến thẻ kết thúc
         - Syntax: <tagname> content.......... </tagname>
 
@@ -14,7 +14,7 @@
     - Khai báo HTML: <!DOCTYPE html>
     - Body bắt đầu bằng <html> và kết thúc bằng </html>
     - Hiển thị tài liệu nằm ở <body></body>
-    ```sh
+    
     <!DOCTYPE html>
     <html>
     <body>
@@ -24,13 +24,13 @@
 
     </body>
     </html>
-    ```
+    
 
-    > <!DOCTYPE>
+   **<!DOCTYPE>**
         - Khai báo <!DOCTYPE> thể hiện loại tài liệu và tăng tính chính xác
         - Xuất hiện một lần ở đầu trang, không phân biệt chữ hoa chữ thường
 
-    > Tiêu đề HTML
+     Tiêu đề HTML
     > Đoạn HTML
     > Liên kết HTML
     > Hình ảnh HTML
