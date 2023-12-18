@@ -1,12 +1,12 @@
 # HTML Tutorial
 
 ## 1. Intro
-   > HTML
+   **HTML**
         - HTML *Hyper Text Markup Language*
         - HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang Web
         - Mô tả cấu trúc của một trang Web
 
-   > HTML element
+   **HTML element**
         - Phần tử HTML là mọi thứ bắt đầu đến thẻ kết thúc
         - Syntax: <tagname> content.......... </tagname>
 
