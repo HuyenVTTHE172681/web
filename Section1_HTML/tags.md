@@ -8,7 +8,7 @@
 
    **HTML element**
         - Phần tử HTML là mọi thứ bắt đầu đến thẻ kết thúc
-        - Syntax: <tagname> content.......... </tagname>
+        - Syntax: <tagname></tagname>
 
 ## 2. HTML Documents
 - Khai báo HTML: <!DOCTYPE html>
